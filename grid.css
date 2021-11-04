@@ -1,0 +1,25 @@
+body>section{
+    display: grid;
+    column-gap: 30px;
+    row-gap: 30px;
+    grid-template-columns: 0.5fr 5.5fr 5.5fr 0.5fr;
+}
+
+body>section>div>ul{
+    padding:25% 0% 25% 0%;
+    text-align: center;
+    font-size: large;
+    list-style: none;
+}
+
+.card>img{
+    height:350px;
+    object-fit: cover;
+    object-position: 0% 0%;
+}
+
+.carousel-item > img {
+    height: 400px;
+    object-fit: cover;
+    object-position: 0% 0%;
+  }
