@@ -1,8 +1,15 @@
-body>section{
+.bio-grid{
     display: grid;
     column-gap: 30px;
     row-gap: 30px;
     grid-template-columns: 0.5fr 5.5fr 5.5fr 0.5fr;
+}
+
+.gallery-grid{
+    display: grid;
+    column-gap: 30px;
+    row-gap: 30px;
+    grid-template-columns: 0.5fr 11 0.5fr;
 }
 
 body>section>div>ul{
