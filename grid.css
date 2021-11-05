@@ -1,4 +1,12 @@
+<<<<<<< HEAD
+.carousel-item > img {
+  height: 400px;
+  object-fit: cover;
+  object-position: 0% 0%;
+}
+=======
 .bio-grid{
+
     display: grid;
     column-gap: 30px;
     row-gap: 30px;
@@ -9,7 +17,7 @@
     display: grid;
     column-gap: 30px;
     row-gap: 30px;
-    grid-template-columns: 0.5fr 11 0.5fr;
+    grid-template-columns: 0.5fr 11fr 0.5fr;
 }
 
 body>section>div>ul{
@@ -22,11 +30,30 @@ body>section>div>ul{
 .card>img{
     height:350px;
     object-fit: cover;
-    object-position: 0% 0%;
+    object-position: 50% 0%;
 }
 
 .carousel-item > img {
     height: 400px;
     object-fit: cover;
-    object-position: 0% 0%;
+    object-position: 80% 80%;
   }
+
+@media only screen and (max-width: 600px){
+    .bio-grid{
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+    .bio-grid>.card>img{
+        height:100px;
+        object-fit: cover;
+        object-position: 50% 0%;
+    }
+    .bio-grid li{
+        font-size: smaller;
+    }
+    .bio-grid p{
+        font-size: smaller;
+    }
+}
+>>>>>>> e6ef0b21698ddcc9723c5d3a90ee9bb7b8152e89
