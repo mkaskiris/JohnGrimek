@@ -1,59 +1,50 @@
-<<<<<<< HEAD
+.bio-grid {
+  display: grid;
+  column-gap: 30px;
+  row-gap: 30px;
+  grid-template-columns: 0.5fr 5.5fr 5.5fr 0.5fr;
+}
+
+.gallery-grid {
+  display: grid;
+  column-gap: 30px;
+  row-gap: 30px;
+  grid-template-columns: 0.5fr 11fr 0.5fr;
+}
+
+body > section > div > ul {
+  padding: 25% 0% 25% 0%;
+  text-align: center;
+  font-size: large;
+  list-style: none;
+}
+
+.card > img {
+  height: 350px;
+  object-fit: cover;
+  object-position: 50% 0%;
+}
+
 .carousel-item > img {
   height: 400px;
   object-fit: cover;
-  object-position: 0% 0%;
-}
-=======
-.bio-grid{
-
-    display: grid;
-    column-gap: 30px;
-    row-gap: 30px;
-    grid-template-columns: 0.5fr 5.5fr 5.5fr 0.5fr;
+  object-position: 80% 80%;
 }
 
-.gallery-grid{
-    display: grid;
-    column-gap: 30px;
-    row-gap: 30px;
-    grid-template-columns: 0.5fr 11fr 0.5fr;
-}
-
-body>section>div>ul{
-    padding:25% 0% 25% 0%;
-    text-align: center;
-    font-size: large;
-    list-style: none;
-}
-
-.card>img{
-    height:350px;
+@media only screen and (max-width: 600px) {
+  .bio-grid {
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+  .bio-grid > .card > img {
+    height: 100px;
     object-fit: cover;
     object-position: 50% 0%;
-}
-
-.carousel-item > img {
-    height: 400px;
-    object-fit: cover;
-    object-position: 80% 80%;
   }
-
-@media only screen and (max-width: 600px){
-    .bio-grid{
-        column-gap: 10px;
-        row-gap: 10px;
-    }
-    .bio-grid>.card>img{
-        height:100px;
-        object-fit: cover;
-        object-position: 50% 0%;
-    }
-    .bio-grid li{
-        font-size: smaller;
-    }
-    .bio-grid p{
-        font-size: smaller;
-    }
+  .bio-grid li {
+    font-size: smaller;
+  }
+  .bio-grid p {
+    font-size: smaller;
+  }
 }
->>>>>>> e6ef0b21698ddcc9723c5d3a90ee9bb7b8152e89
